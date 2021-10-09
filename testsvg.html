@@ -1,0 +1,411 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
+
+</head>
+
+<body>
+
+  <svg width="300" height="300" viewBox="0 0 240 160" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      svg {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        background-color:rgb(238, 253, 251);
+      }
+
+      .small { font: 13px sans-serif; }
+
+      .footer {
+        font: 12px sans-serif; 
+        fill: rgb(119, 128, 243);
+      }
+    </style>
+  
+    <text x="15" y="15" class="small">There is no space to show any of</text>
+    <text x="15" y="35" class="small">this thing and I will keep typing until</text>
+    <text x="15" y="55" class="small">the quick brown fox jumped over the</text>
+    <text x="15" y="75" class="small">You just slapped a filter on the Mona</text>
+    <text x="15" y="95" class="small">there is no space to show any of</text>
+    <text x="15" y="115" class="small">this thing and I will keep typing until</text>
+    <text x="15" y="135" class="small">the quick brown fox jumped over the</text>
+
+    <text x="165" y="195" class="footer">EthMS.com</text>
+  </svg>
+
+  <img src="data:application/json;base64,eyJuYW1lIjoiVW5pc3dhcCAtIDAuMyUgLSBVU0RUL0JJIC0gMC4xOTgzOTw+MC4yNDMyOCIsICJkZXNjcmlwdGlvbiI6IlRoaXMgTkZUIHJlcHJlc2VudHMgYSBsaXF1aWRpdHkgcG9zaXRpb24gaW4gYSBVbmlzd2FwIFYzIFVTRFQtQkkgcG9vbC4gVGhlIG93bmVyIG9mIHRoaXMgTkZUIGNhbiBtb2RpZnkgb3IgcmVkZWVtIHRoZSBwb3NpdGlvbi5cblxuUG9vbCBBZGRyZXNzOiAweGRhMmMxYjE5Nzg3NGQxZmM1ZDEyMTc3ZDAwOTNiYWI3ZDMzNWNmYzJcblVTRFQgQWRkcmVzczogMHhkYWMxN2Y5NThkMmVlNTIzYTIyMDYyMDY5OTQ1OTdjMTNkODMxZWM3XG5CSSBBZGRyZXNzOiAweDQwNzMwNjYzNTMwMTlhOTM5YmUwNmFiZmJhM2MzOGEyNTcyYTI0MDNcbkZlZSBUaWVyOiAwLjMlXG5Ub2tlbiBJRDogMTAyNjQ3XG5cbuKaoO+4jyBESVNDTEFJTUVSOiBEdWUgZGlsaWdlbmNlIGlzIGltcGVyYXRpdmUgd2hlbiBhc3Nlc3NpbmcgdGhpcyBORlQuIE1ha2Ugc3VyZSB0b2tlbiBhZGRyZXNzZXMgbWF0Y2ggdGhlIGV4cGVjdGVkIHRva2VucywgYXMgdG9rZW4gc3ltYm9scyBtYXkgYmUgaW1pdGF0ZWQuIiwgImltYWdlIjogImRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEhOMlp5QjNhV1IwYUQwaU1qa3dJaUJvWldsbmFIUTlJalV3TUNJZ2RtbGxkMEp2ZUQwaU1DQXdJREk1TUNBMU1EQWlJSGh0Ykc1elBTSm9kSFJ3T2k4dmQzZDNMbmN6TG05eVp5OHlNREF3TDNOMlp5SWdlRzFzYm5NNmVHeHBibXM5SjJoMGRIQTZMeTkzZDNjdWR6TXViM0puTHpFNU9Ua3ZlR3hwYm1zblBqeGtaV1p6UGp4bWFXeDBaWElnYVdROUltWXhJajQ4Wm1WSmJXRm5aU0J5WlhOMWJIUTlJbkF3SWlCNGJHbHVhenBvY21WbVBTSmtZWFJoT21sdFlXZGxMM04yWnl0NGJXdzdZbUZ6WlRZMExGQklUakphZVVJellWZFNNR0ZFTUc1TmFtdDNTbmxDYjFwWGJHNWhTRkU1U25wVmQwMURZMmRrYld4c1pEQktkbVZFTUc1TlEwRjNTVVJKTlUxRFFURk5SRUZ1U1Vob2RHSkhOWHBRVTJSdlpFaFNkMDlwT0haa00yUXpURzVqZWt4dE9YbGFlVGg1VFVSQmQwd3pUakphZVdNclVFaEtiRmt6VVdka01teHJaRWRuT1VwNlNUVk5TRUkwU25sQ2IxcFhiRzVoU0ZFNVNucFZkMDFJUWpSS2VVSnRZVmQ0YzFCVFkycGFSMFpxVFZSa2JVcDVPQ3RRUXpsNlpHMWpLeUl2UGp4bVpVbHRZV2RsSUhKbGMzVnNkRDBpY0RFaUlIaHNhVzVyT21oeVpXWTlJbVJoZEdFNmFXMWhaMlV2YzNabkszaHRiRHRpWVhObE5qUXNVRWhPTWxwNVFqTmhWMUl3WVVRd2JrMXFhM2RLZVVKdldsZHNibUZJVVRsS2VsVjNUVU5qWjJSdGJHeGtNRXAyWlVRd2JrMURRWGRKUkVrMVRVTkJNVTFFUVc1SlNHaDBZa2MxZWxCVFpHOWtTRkozVDJrNGRtUXpaRE5NYm1ONlRHMDVlVnA1T0hsTlJFRjNURE5PTWxwNVl5dFFSMDV3WTIxT2MxcFRRbXBsUkRCdVRWUkZNRXA1UW1wbFZEQnVUWHBGTWtwNVFubFFVMk40VFdwQ2QyVkRZMmRhYld4ellrUXdia2w2VVhkT2VrMTNUbWxqZGxCcWQzWmpNMXB1VUdjOVBTSXZQanhtWlVsdFlXZGxJSEpsYzNWc2REMGljRElpSUhoc2FXNXJPbWh5WldZOUltUmhkR0U2YVcxaFoyVXZjM1puSzNodGJEdGlZWE5sTmpRc1VFaE9NbHA1UWpOaFYxSXdZVVF3YmsxcWEzZEtlVUp2V2xkc2JtRklVVGxLZWxWM1RVTmpaMlJ0Ykd4a01FcDJaVVF3YmsxRFFYZEpSRWsxVFVOQk1VMUVRVzVKU0doMFlrYzFlbEJUWkc5a1NGSjNUMms0ZG1RelpETk1ibU42VEcwNWVWcDVPSGxOUkVGM1RETk9NbHA1WXl0UVIwNXdZMjFPYzFwVFFtcGxSREJ1VFZSck1FcDVRbXBsVkRCdVRWUkZla3A1UW5sUVUyTjRUV3BDZDJWRFkyZGFiV3h6WWtRd2JrbDZaM3BOVjFacVRubGpkbEJxZDNaak0xcHVVR2M5UFNJZ0x6NDhabVZKYldGblpTQnlaWE4xYkhROUluQXpJaUI0YkdsdWF6cG9jbVZtUFNKa1lYUmhPbWx0WVdkbEwzTjJaeXQ0Yld3N1ltRnpaVFkwTEZCSVRqSmFlVUl6WVZkU01HRkVNRzVOYW10M1NubENiMXBYYkc1aFNGRTVTbnBWZDAxRFkyZGtiV3hzWkRCS2RtVkVNRzVOUTBGM1NVUkpOVTFEUVRGTlJFRnVTVWhvZEdKSE5YcFFVMlJ2WkVoU2QwOXBPSFprTTJRelRHNWpla3h0T1hsYWVUaDVUVVJCZDB3elRqSmFlV01yVUVkT2NHTnRUbk5hVTBKcVpVUXdiazE2VVc1SlIwNDFVRk5qZUU5VVFXNUpTRWs1U25wRmQwMUlRalJLZVVKdFlWZDRjMUJUWTJwTmJVVjVUa1JCZWtwNU9DdFFRemw2Wkcxakt5SWdMejQ4Wm1WQ2JHVnVaQ0J0YjJSbFBTSnZkbVZ5YkdGNUlpQnBiajBpY0RBaUlHbHVNajBpY0RFaUlDOCtQR1psUW14bGJtUWdiVzlrWlQwaVpYaGpiSFZ6YVc5dUlpQnBiakk5SW5BeUlpQXZQanhtWlVKc1pXNWtJRzF2WkdVOUltOTJaWEpzWVhraUlHbHVNajBpY0RNaUlISmxjM1ZzZEQwaVlteGxibVJQZFhRaUlDOCtQR1psUjJGMWMzTnBZVzVDYkhWeUlHbHVQU0ppYkdWdVpFOTFkQ0lnYzNSa1JHVjJhV0YwYVc5dVBTSTBNaUlnTHo0OEwyWnBiSFJsY2o0Z1BHTnNhWEJRWVhSb0lHbGtQU0pqYjNKdVpYSnpJajQ4Y21WamRDQjNhV1IwYUQwaU1qa3dJaUJvWldsbmFIUTlJalV3TUNJZ2NuZzlJalF5SWlCeWVUMGlORElpSUM4K1BDOWpiR2x3VUdGMGFENDhjR0YwYUNCcFpEMGlkR1Y0ZEMxd1lYUm9MV0VpSUdROUlrMDBNQ0F4TWlCSU1qVXdJRUV5T0NBeU9DQXdJREFnTVNBeU56Z2dOREFnVmpRMk1DQkJNamdnTWpnZ01DQXdJREVnTWpVd0lEUTRPQ0JJTkRBZ1FUSTRJREk0SURBZ01DQXhJREV5SURRMk1DQldOREFnUVRJNElESTRJREFnTUNBeElEUXdJREV5SUhvaUlDOCtQSEJoZEdnZ2FXUTlJbTFwYm1sdFlYQWlJR1E5SWsweU16UWdORFEwUXpJek5DQTBOVGN1T1RRNUlESTBNaTR5TVNBME5qTWdNalV6SURRMk15SWdMejQ4Wm1sc2RHVnlJR2xrUFNKMGIzQXRjbVZuYVc5dUxXSnNkWElpUGp4bVpVZGhkWE56YVdGdVFteDFjaUJwYmowaVUyOTFjbU5sUjNKaGNHaHBZeUlnYzNSa1JHVjJhV0YwYVc5dVBTSXlOQ0lnTHo0OEwyWnBiSFJsY2o0OGJHbHVaV0Z5UjNKaFpHbGxiblFnYVdROUltZHlZV1F0ZFhBaUlIZ3hQU0l4SWlCNE1qMGlNQ0lnZVRFOUlqRWlJSGt5UFNJd0lqNDhjM1J2Y0NCdlptWnpaWFE5SWpBdU1DSWdjM1J2Y0MxamIyeHZjajBpZDJocGRHVWlJSE4wYjNBdGIzQmhZMmwwZVQwaU1TSWdMejQ4YzNSdmNDQnZabVp6WlhROUlpNDVJaUJ6ZEc5d0xXTnZiRzl5UFNKM2FHbDBaU0lnYzNSdmNDMXZjR0ZqYVhSNVBTSXdJaUF2UGp3dmJHbHVaV0Z5UjNKaFpHbGxiblErUEd4cGJtVmhja2R5WVdScFpXNTBJR2xrUFNKbmNtRmtMV1J2ZDI0aUlIZ3hQU0l3SWlCNE1qMGlNU0lnZVRFOUlqQWlJSGt5UFNJeElqNDhjM1J2Y0NCdlptWnpaWFE5SWpBdU1DSWdjM1J2Y0MxamIyeHZjajBpZDJocGRHVWlJSE4wYjNBdGIzQmhZMmwwZVQwaU1TSWdMejQ4YzNSdmNDQnZabVp6WlhROUlqQXVPU0lnYzNSdmNDMWpiMnh2Y2owaWQyaHBkR1VpSUhOMGIzQXRiM0JoWTJsMGVUMGlNQ0lnTHo0OEwyeHBibVZoY2tkeVlXUnBaVzUwUGp4dFlYTnJJR2xrUFNKbVlXUmxMWFZ3SWlCdFlYTnJRMjl1ZEdWdWRGVnVhWFJ6UFNKdlltcGxZM1JDYjNWdVpHbHVaMEp2ZUNJK1BISmxZM1FnZDJsa2RHZzlJakVpSUdobGFXZG9kRDBpTVNJZ1ptbHNiRDBpZFhKc0tDTm5jbUZrTFhWd0tTSWdMejQ4TDIxaGMycytQRzFoYzJzZ2FXUTlJbVpoWkdVdFpHOTNiaUlnYldGemEwTnZiblJsYm5SVmJtbDBjejBpYjJKcVpXTjBRbTkxYm1ScGJtZENiM2dpUGp4eVpXTjBJSGRwWkhSb1BTSXhJaUJvWldsbmFIUTlJakVpSUdacGJHdzlJblZ5YkNnalozSmhaQzFrYjNkdUtTSWdMejQ4TDIxaGMycytQRzFoYzJzZ2FXUTlJbTV2Ym1VaUlHMWhjMnREYjI1MFpXNTBWVzVwZEhNOUltOWlhbVZqZEVKdmRXNWthVzVuUW05NElqNDhjbVZqZENCM2FXUjBhRDBpTVNJZ2FHVnBaMmgwUFNJeElpQm1hV3hzUFNKM2FHbDBaU0lnTHo0OEwyMWhjMnMrUEd4cGJtVmhja2R5WVdScFpXNTBJR2xrUFNKbmNtRmtMWE41YldKdmJDSStQSE4wYjNBZ2IyWm1jMlYwUFNJd0xqY2lJSE4wYjNBdFkyOXNiM0k5SW5kb2FYUmxJaUJ6ZEc5d0xXOXdZV05wZEhrOUlqRWlJQzgrUEhOMGIzQWdiMlptYzJWMFBTSXVPVFVpSUhOMGIzQXRZMjlzYjNJOUluZG9hWFJsSWlCemRHOXdMVzl3WVdOcGRIazlJakFpSUM4K1BDOXNhVzVsWVhKSGNtRmthV1Z1ZEQ0OGJXRnpheUJwWkQwaVptRmtaUzF6ZVcxaWIyd2lJRzFoYzJ0RGIyNTBaVzUwVlc1cGRITTlJblZ6WlhKVGNHRmpaVTl1VlhObElqNDhjbVZqZENCM2FXUjBhRDBpTWprd2NIZ2lJR2hsYVdkb2REMGlNakF3Y0hnaUlHWnBiR3c5SW5WeWJDZ2paM0poWkMxemVXMWliMndwSWlBdlBqd3ZiV0Z6YXo0OEwyUmxabk0rUEdjZ1kyeHBjQzF3WVhSb1BTSjFjbXdvSTJOdmNtNWxjbk1wSWo0OGNtVmpkQ0JtYVd4c1BTSmtZV014TjJZaUlIZzlJakJ3ZUNJZ2VUMGlNSEI0SWlCM2FXUjBhRDBpTWprd2NIZ2lJR2hsYVdkb2REMGlOVEF3Y0hnaUlDOCtQSEpsWTNRZ2MzUjViR1U5SW1acGJIUmxjam9nZFhKc0tDTm1NU2tpSUhnOUlqQndlQ0lnZVQwaU1IQjRJaUIzYVdSMGFEMGlNamt3Y0hnaUlHaGxhV2RvZEQwaU5UQXdjSGdpSUM4K0lEeG5JSE4wZVd4bFBTSm1hV3gwWlhJNmRYSnNLQ04wYjNBdGNtVm5hVzl1TFdKc2RYSXBPeUIwY21GdWMyWnZjbTA2YzJOaGJHVW9NUzQxS1RzZ2RISmhibk5tYjNKdExXOXlhV2RwYmpwalpXNTBaWElnZEc5d095SStQSEpsWTNRZ1ptbHNiRDBpYm05dVpTSWdlRDBpTUhCNElpQjVQU0l3Y0hnaUlIZHBaSFJvUFNJeU9UQndlQ0lnYUdWcFoyaDBQU0kxTURCd2VDSWdMejQ4Wld4c2FYQnpaU0JqZUQwaU5UQWxJaUJqZVQwaU1IQjRJaUJ5ZUQwaU1UZ3djSGdpSUhKNVBTSXhNakJ3ZUNJZ1ptbHNiRDBpSXpBd01DSWdiM0JoWTJsMGVUMGlNQzQ0TlNJZ0x6NDhMMmMrUEhKbFkzUWdlRDBpTUNJZ2VUMGlNQ0lnZDJsa2RHZzlJakk1TUNJZ2FHVnBaMmgwUFNJMU1EQWlJSEo0UFNJME1pSWdjbms5SWpReUlpQm1hV3hzUFNKeVoySmhLREFzTUN3d0xEQXBJaUJ6ZEhKdmEyVTlJbkpuWW1Fb01qVTFMREkxTlN3eU5UVXNNQzR5S1NJZ0x6NDhMMmMrUEhSbGVIUWdkR1Y0ZEMxeVpXNWtaWEpwYm1jOUltOXdkR2x0YVhwbFUzQmxaV1FpUGp4MFpYaDBVR0YwYUNCemRHRnlkRTltWm5ObGREMGlMVEV3TUNVaUlHWnBiR3c5SW5kb2FYUmxJaUJtYjI1MExXWmhiV2xzZVQwaUowTnZkWEpwWlhJZ1RtVjNKeXdnYlc5dWIzTndZV05sSWlCbWIyNTBMWE5wZW1VOUlqRXdjSGdpSUhoc2FXNXJPbWh5WldZOUlpTjBaWGgwTFhCaGRHZ3RZU0krTUhnME1EY3pNRFkyTXpVek1ERTVZVGt6T1dKbE1EWmhZbVppWVROak16aGhNalUzTW1FeU5EQXpJT0tBb2lCQ1NTQThZVzVwYldGMFpTQmhaR1JwZEdsMlpUMGljM1Z0SWlCaGRIUnlhV0oxZEdWT1lXMWxQU0p6ZEdGeWRFOW1abk5sZENJZ1puSnZiVDBpTUNVaUlIUnZQU0l4TURBbElpQmlaV2RwYmowaU1ITWlJR1IxY2owaU16QnpJaUJ5WlhCbFlYUkRiM1Z1ZEQwaWFXNWtaV1pwYm1sMFpTSWdMejQ4TDNSbGVIUlFZWFJvUGlBOGRHVjRkRkJoZEdnZ2MzUmhjblJQWm1aelpYUTlJakFsSWlCbWFXeHNQU0ozYUdsMFpTSWdabTl1ZEMxbVlXMXBiSGs5SWlkRGIzVnlhV1Z5SUU1bGR5Y3NJRzF2Ym05emNHRmpaU0lnWm05dWRDMXphWHBsUFNJeE1IQjRJaUI0YkdsdWF6cG9jbVZtUFNJamRHVjRkQzF3WVhSb0xXRWlQakI0TkRBM016QTJOak0xTXpBeE9XRTVNemxpWlRBMllXSm1ZbUV6WXpNNFlUSTFOekpoTWpRd015RGlnS0lnUWtrZ1BHRnVhVzFoZEdVZ1lXUmthWFJwZG1VOUluTjFiU0lnWVhSMGNtbGlkWFJsVG1GdFpUMGljM1JoY25SUFptWnpaWFFpSUdaeWIyMDlJakFsSWlCMGJ6MGlNVEF3SlNJZ1ltVm5hVzQ5SWpCeklpQmtkWEk5SWpNd2N5SWdjbVZ3WldGMFEyOTFiblE5SW1sdVpHVm1hVzVwZEdVaUlDOCtJRHd2ZEdWNGRGQmhkR2crUEhSbGVIUlFZWFJvSUhOMFlYSjBUMlptYzJWMFBTSTFNQ1VpSUdacGJHdzlJbmRvYVhSbElpQm1iMjUwTFdaaGJXbHNlVDBpSjBOdmRYSnBaWElnVG1WM0p5d2diVzl1YjNOd1lXTmxJaUJtYjI1MExYTnBlbVU5SWpFd2NIZ2lJSGhzYVc1ck9taHlaV1k5SWlOMFpYaDBMWEJoZEdndFlTSStNSGhrWVdNeE4yWTVOVGhrTW1WbE5USXpZVEl5TURZeU1EWTVPVFExT1Rkak1UTmtPRE14WldNM0lPS0FvaUJWVTBSVUlEeGhibWx0WVhSbElHRmtaR2wwYVhabFBTSnpkVzBpSUdGMGRISnBZblYwWlU1aGJXVTlJbk4wWVhKMFQyWm1jMlYwSWlCbWNtOXRQU0l3SlNJZ2RHODlJakV3TUNVaUlHSmxaMmx1UFNJd2N5SWdaSFZ5UFNJek1ITWlJSEpsY0dWaGRFTnZkVzUwUFNKcGJtUmxabWx1YVhSbElpQXZQand2ZEdWNGRGQmhkR2crUEhSbGVIUlFZWFJvSUhOMFlYSjBUMlptYzJWMFBTSXROVEFsSWlCbWFXeHNQU0ozYUdsMFpTSWdabTl1ZEMxbVlXMXBiSGs5SWlkRGIzVnlhV1Z5SUU1bGR5Y3NJRzF2Ym05emNHRmpaU0lnWm05dWRDMXphWHBsUFNJeE1IQjRJaUI0YkdsdWF6cG9jbVZtUFNJamRHVjRkQzF3WVhSb0xXRWlQakI0WkdGak1UZG1PVFU0WkRKbFpUVXlNMkV5TWpBMk1qQTJPVGswTlRrM1l6RXpaRGd6TVdWak55RGlnS0lnVlZORVZDQThZVzVwYldGMFpTQmhaR1JwZEdsMlpUMGljM1Z0SWlCaGRIUnlhV0oxZEdWT1lXMWxQU0p6ZEdGeWRFOW1abk5sZENJZ1puSnZiVDBpTUNVaUlIUnZQU0l4TURBbElpQmlaV2RwYmowaU1ITWlJR1IxY2owaU16QnpJaUJ5WlhCbFlYUkRiM1Z1ZEQwaWFXNWtaV1pwYm1sMFpTSWdMejQ4TDNSbGVIUlFZWFJvUGp3dmRHVjRkRDQ4WnlCdFlYTnJQU0oxY213b0kyWmhaR1V0YzNsdFltOXNLU0krUEhKbFkzUWdabWxzYkQwaWJtOXVaU0lnZUQwaU1IQjRJaUI1UFNJd2NIZ2lJSGRwWkhSb1BTSXlPVEJ3ZUNJZ2FHVnBaMmgwUFNJeU1EQndlQ0lnTHo0Z1BIUmxlSFFnZVQwaU56QndlQ0lnZUQwaU16SndlQ0lnWm1sc2JEMGlkMmhwZEdVaUlHWnZiblF0Wm1GdGFXeDVQU0luUTI5MWNtbGxjaUJPWlhjbkxDQnRiMjV2YzNCaFkyVWlJR1p2Ym5RdGQyVnBaMmgwUFNJeU1EQWlJR1p2Ym5RdGMybDZaVDBpTXpad2VDSStWVk5FVkM5Q1NUd3ZkR1Y0ZEQ0OGRHVjRkQ0I1UFNJeE1UVndlQ0lnZUQwaU16SndlQ0lnWm1sc2JEMGlkMmhwZEdVaUlHWnZiblF0Wm1GdGFXeDVQU0luUTI5MWNtbGxjaUJPWlhjbkxDQnRiMjV2YzNCaFkyVWlJR1p2Ym5RdGQyVnBaMmgwUFNJeU1EQWlJR1p2Ym5RdGMybDZaVDBpTXpad2VDSStNQzR6SlR3dmRHVjRkRDQ4TDJjK1BISmxZM1FnZUQwaU1UWWlJSGs5SWpFMklpQjNhV1IwYUQwaU1qVTRJaUJvWldsbmFIUTlJalEyT0NJZ2NuZzlJakkySWlCeWVUMGlNallpSUdacGJHdzlJbkpuWW1Fb01Dd3dMREFzTUNraUlITjBjbTlyWlQwaWNtZGlZU2d5TlRVc01qVTFMREkxTlN3d0xqSXBJaUF2UGp4bklHMWhjMnM5SW5WeWJDZ2pabUZrWlMxMWNDa2lJSE4wZVd4bFBTSjBjbUZ1YzJadmNtMDZkSEpoYm5Oc1lYUmxLRGN5Y0hnc01UZzVjSGdwSWo0OGNtVmpkQ0I0UFNJdE1UWndlQ0lnZVQwaUxURTJjSGdpSUhkcFpIUm9QU0l4T0RCd2VDSWdhR1ZwWjJoMFBTSXhPREJ3ZUNJZ1ptbHNiRDBpYm05dVpTSWdMejQ4Y0dGMGFDQmtQU0pOTVNBeFF6RTNJRGN6SURjeklERXlPU0F4TkRVZ01UUTFJaUJ6ZEhKdmEyVTlJbkpuWW1Fb01Dd3dMREFzTUM0ektTSWdjM1J5YjJ0bExYZHBaSFJvUFNJek1uQjRJaUJtYVd4c1BTSnViMjVsSWlCemRISnZhMlV0YkdsdVpXTmhjRDBpY205MWJtUWlJQzgrUEM5blBqeG5JRzFoYzJzOUluVnliQ2dqWm1Ga1pTMTFjQ2tpSUhOMGVXeGxQU0owY21GdWMyWnZjbTA2ZEhKaGJuTnNZWFJsS0RjeWNIZ3NNVGc1Y0hncElqNDhjbVZqZENCNFBTSXRNVFp3ZUNJZ2VUMGlMVEUyY0hnaUlIZHBaSFJvUFNJeE9EQndlQ0lnYUdWcFoyaDBQU0l4T0RCd2VDSWdabWxzYkQwaWJtOXVaU0lnTHo0OGNHRjBhQ0JrUFNKTk1TQXhRekUzSURjeklEY3pJREV5T1NBeE5EVWdNVFExSWlCemRISnZhMlU5SW5KblltRW9NalUxTERJMU5Td3lOVFVzTVNraUlHWnBiR3c5SW01dmJtVWlJSE4wY205clpTMXNhVzVsWTJGd1BTSnliM1Z1WkNJZ0x6NDhMMmMrUEdOcGNtTnNaU0JqZUQwaU1qRTNjSGdpSUdONVBTSXpNelJ3ZUNJZ2NqMGlOSEI0SWlCbWFXeHNQU0ozYUdsMFpTSWdMejQ4WTJseVkyeGxJR040UFNJeU1UZHdlQ0lnWTNrOUlqTXpOSEI0SWlCeVBTSXlOSEI0SWlCbWFXeHNQU0p1YjI1bElpQnpkSEp2YTJVOUluZG9hWFJsSWlBdlBpQThaeUJ6ZEhsc1pUMGlkSEpoYm5ObWIzSnRPblJ5WVc1emJHRjBaU2d5T1hCNExDQXpPRFJ3ZUNraVBqeHlaV04wSUhkcFpIUm9QU0k1T0hCNElpQm9aV2xuYUhROUlqSTJjSGdpSUhKNFBTSTRjSGdpSUhKNVBTSTRjSGdpSUdacGJHdzlJbkpuWW1Fb01Dd3dMREFzTUM0MktTSWdMejQ4ZEdWNGRDQjRQU0l4TW5CNElpQjVQU0l4TjNCNElpQm1iMjUwTFdaaGJXbHNlVDBpSjBOdmRYSnBaWElnVG1WM0p5d2diVzl1YjNOd1lXTmxJaUJtYjI1MExYTnBlbVU5SWpFeWNIZ2lJR1pwYkd3OUluZG9hWFJsSWo0OGRITndZVzRnWm1sc2JEMGljbWRpWVNneU5UVXNNalUxTERJMU5Td3dMallwSWo1SlJEb2dQQzkwYzNCaGJqNHhNREkyTkRjOEwzUmxlSFErUEM5blBpQThaeUJ6ZEhsc1pUMGlkSEpoYm5ObWIzSnRPblJ5WVc1emJHRjBaU2d5T1hCNExDQTBNVFJ3ZUNraVBqeHlaV04wSUhkcFpIUm9QU0l4TkRkd2VDSWdhR1ZwWjJoMFBTSXlObkI0SWlCeWVEMGlPSEI0SWlCeWVUMGlPSEI0SWlCbWFXeHNQU0p5WjJKaEtEQXNNQ3d3TERBdU5pa2lJQzgrUEhSbGVIUWdlRDBpTVRKd2VDSWdlVDBpTVRkd2VDSWdabTl1ZEMxbVlXMXBiSGs5SWlkRGIzVnlhV1Z5SUU1bGR5Y3NJRzF2Ym05emNHRmpaU0lnWm05dWRDMXphWHBsUFNJeE1uQjRJaUJtYVd4c1BTSjNhR2wwWlNJK1BIUnpjR0Z1SUdacGJHdzlJbkpuWW1Fb01qVTFMREkxTlN3eU5UVXNNQzQyS1NJK1RXbHVJRlJwWTJzNklEd3ZkSE53WVc0K0xUSTVNalV3TUR3dmRHVjRkRDQ4TDJjK0lEeG5JSE4wZVd4bFBTSjBjbUZ1YzJadmNtMDZkSEpoYm5Oc1lYUmxLREk1Y0hnc0lEUTBOSEI0S1NJK1BISmxZM1FnZDJsa2RHZzlJakUwTjNCNElpQm9aV2xuYUhROUlqSTJjSGdpSUhKNFBTSTRjSGdpSUhKNVBTSTRjSGdpSUdacGJHdzlJbkpuWW1Fb01Dd3dMREFzTUM0MktTSWdMejQ4ZEdWNGRDQjRQU0l4TW5CNElpQjVQU0l4TjNCNElpQm1iMjUwTFdaaGJXbHNlVDBpSjBOdmRYSnBaWElnVG1WM0p5d2diVzl1YjNOd1lXTmxJaUJtYjI1MExYTnBlbVU5SWpFeWNIZ2lJR1pwYkd3OUluZG9hWFJsSWo0OGRITndZVzRnWm1sc2JEMGljbWRpWVNneU5UVXNNalUxTERJMU5Td3dMallwSWo1TllYZ2dWR2xqYXpvZ1BDOTBjM0JoYmo0dE1qa3dORFl3UEM5MFpYaDBQand2Wno0OFp5QnpkSGxzWlQwaWRISmhibk5tYjNKdE9uUnlZVzV6YkdGMFpTZ3lNalp3ZUN3Z05ETXpjSGdwSWo0OGNtVmpkQ0IzYVdSMGFEMGlNelp3ZUNJZ2FHVnBaMmgwUFNJek5uQjRJaUJ5ZUQwaU9IQjRJaUJ5ZVQwaU9IQjRJaUJtYVd4c1BTSnViMjVsSWlCemRISnZhMlU5SW5KblltRW9NalUxTERJMU5Td3lOVFVzTUM0eUtTSWdMejQ4Y0dGMGFDQnpkSEp2YTJVdGJHbHVaV05oY0QwaWNtOTFibVFpSUdROUlrMDRJRGxET0M0d01EQXdOQ0F5TWk0NU5EazBJREUyTGpJd09Ua2dNamdnTWpjZ01qZ2lJR1pwYkd3OUltNXZibVVpSUhOMGNtOXJaVDBpZDJocGRHVWlJQzgrUEdOcGNtTnNaU0J6ZEhsc1pUMGlkSEpoYm5ObWIzSnRPblJ5WVc1emJHRjBaVE5rS0Rod2VDd2dOM0I0TENBd2NIZ3BJaUJqZUQwaU1IQjRJaUJqZVQwaU1IQjRJaUJ5UFNJMGNIZ2lJR1pwYkd3OUluZG9hWFJsSWk4K1BDOW5Qand2YzNablBnPT0ifQ==">
+
+
+  <img src="data:image/svg+xml;utf8, <svg width='300' height='300' viewBox='0 0 240 160' xmlns='http://www.w3.org/2000/svg'><style>svg {border: 1px solid rgba(0, 0, 0, 0.3);background-color:rgb(238, 253, 251);}.small { font: 13px sans-serif; }.footer {font: 12px sans-serif; fill: rgb(119, 128, 243);}</style><text x='15' y='15' class='small'>There is no space to show any of</text><text x='15' y='35' class='small'>this thing and I will keep typing until</text><text x='15' y='55' class='small'>the quick brown fox jumped over the</text><text x='15' y='75' class='small'>You just slapped a filter on the Mona</text><text x='15' y='95' class='small'>there is no space to show any of</text><text x='15' y='115' class='small'>this thing and I will keep typing until</text><text x='15' y='135' class='small'>the quick brown fox jumped over the</text><text x='165' y='195' class='footer'>EthMS.com</text></svg>">
+
+
+  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaW5ZTWluIG1lZXQiIHZpZXdCb3g9IjAgMCAzNTAgMzUwIj48c3R5bGU+LmJhc2UgeyBmaWxsOiB3aGl0ZTsgZm9udC1mYW1pbHk6IHNlcmlmOyBmb250LXNpemU6IDE0cHg7IH08L3N0eWxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9ImJsYWNrIiAvPjx0ZXh0IHg9IjEwIiB5PSIyMCIgY2xhc3M9ImJhc2UiPlNjaW1pdGFyIG9mIEJyaWxsaWFuY2U8L3RleHQ+PHRleHQgeD0iMTAiIHk9IjQwIiBjbGFzcz0iYmFzZSI+UGxhdGUgTWFpbCBvZiBGdXJ5PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSI2MCIgY2xhc3M9ImJhc2UiPkZ1bGwgSGVsbSBvZiBSZWZsZWN0aW9uPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSI4MCIgY2xhc3M9ImJhc2UiPkRyYWdvbnNraW4gQmVsdDwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMTAwIiBjbGFzcz0iYmFzZSI+RGl2aW5lIFNsaXBwZXJzPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIxMjAiIGNsYXNzPSJiYXNlIj5EcmFnb25za2luIEdsb3ZlczwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMTQwIiBjbGFzcz0iYmFzZSI+UGVuZGFudCBvZiBQb3dlcjwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMTYwIiBjbGFzcz0iYmFzZSI+R29sZCBSaW5nPC90ZXh0Pjwvc3ZnPg==">
+
+
+
+  <!-- <svg width="300" height="300" viewBox="0 0 240 80" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      .small { font: italic 13px sans-serif; }
+      .heavy { font: bold 30px sans-serif; }
+  
+      /* Note that the color of the text is set with the    *
+       * fill property, the color property is for HTML only */
+      .Rrrrr { font: italic 40px serif; fill: red; }
+    </style>
+  
+    <text x="20" y="35" class="small">My</text>
+    <text x="40" y="35" class="heavy">cat</text>
+    <text x="55" y="55" class="small">is</text>
+    <text x="65" y="55" class="Rrrrr">Grumpy!</text>
+  </svg> -->
+
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 250 250"><style>.base { fill: white; font-family: serif; font-size: 14px; }</style><rect width="100%" height="100%" fill="black" />
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" x="0.5" y="0.5" width="249" height="249"></rect>
+    <path d="M227.386414,205.705078 C294.65802,349.368652 73.6013184,105.372681 201.884827,271.179016 C330.168335,436.985352 227.386414,244.966431 227.386414,251 C227.386414,257.033569 204.593872,126.754211 297.912109,205.705078 C391.230347,284.655945 160.114807,62.0415039 227.386414,205.705078 Z" id="Path" stroke="#979797" fill="#D54A4A"></path>
+</g>
+  <text x="20" y="30" class="base">
+    There is no space to show any of
+  </text>
+  <text x="20" y="50" class="base">
+    this thing and I will keep typing until
+  </text>
+  <text x="20" y="70" class="base">
+    There is no space to show any of
+  </text>
+  <text x="20" y="90" class="base">
+    this thing and I will keep typing until
+  </text>
+  <text x="20" y="110" class="base">
+    There is no space to show any of
+  </text>
+  <text x="20" y="130" class="base">
+    this thing and I will keep typing until
+  </text>
+  <text x="20" y="150" class="base">
+    There is no space to show any of
+  </text>
+  <text x="20" y="170" class="base">
+    this thing and I will keep typing until
+  </text>
+</svg>
+
+
+<svg width="502px" height="502px" viewBox="0 0 502 502" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #EAD1D1;">
+    <title>Untitled</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" x="0.5" y="0.5" width="501" height="501"></rect>
+        <path d="M227.386414,205.705078 C294.65802,349.368652 73.6013184,105.372681 201.884827,271.179016 C330.168335,436.985352 227.386414,244.966431 227.386414,251 C227.386414,257.033569 204.593872,126.754211 297.912109,205.705078 C391.230347,284.655945 160.114807,62.0415039 227.386414,205.705078 Z" id="Path" stroke="#979797" fill="#D54A4A"></path>
+    </g>
+</svg>
+
+<svg width="100%" height="100%" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>.base { fill: white; font-family: serif; font-size: 14px; }</style><rect width="100%" height="100%" fill="black" />
+
+    <title>Artboard</title>
+    <defs>
+        <path d="M117.818542,77.096344 C114.954224,75.3908488 111.844371,74.0426244 109.225586,71.9798584 C93.9192231,59.9233323 77.4707421,41.2074625 57.6586304,34.8444824 C54.4606865,33.817411 49.3346195,31.1221805 47.6168823,34.0085449 C43.3240395,41.2219356 43.8563507,50.4516873 43.3828735,58.8324585 C40.8455616,103.744092 50.802001,126.060646 83.6741333,157.850891 C90.8054996,164.74755 100.172303,169.015151 107.433716,175.77475 C120.24995,187.705294 125.525707,216.805563 143.039368,221.687744" id="path-1"></path>
+        <filter x="-7.5%" y="-2.9%" width="115.1%" height="108.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.682973668   0 0 0 0 0.308143797   0 0 0 0 0.308143797  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-6.5%" y="-2.4%" width="113.1%" height="107.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#2A0000" x="0" y="0" width="250" height="250"></rect>
+        <path d="M116.212402,77.5611877 C116.212402,54.5100394 137.569021,30.5372999 157.211121,19.4978638 C162.624704,16.455271 180.747661,8.08658238 187.400818,15.0653076 C209.763631,38.522433 184.551514,111.757534 177.720459,132.596252 C156.597955,197.032265 163.822942,179.93067 142.755188,221.816132" id="Path" stroke="#979797" fill="#EABDBD"></path>
+        <g id="Path-2">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#EABDBD" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+            <use stroke="#979797" stroke-width="1" xlink:href="#path-1"></use>
+        </g>
+    </g>
+
+    <text x="20" y="30" class="base">
+      There is no space to show any of
+    </text>
+    <text x="20" y="50" class="base">
+      this thing and I will keep typing until
+    </text>
+    <text x="20" y="70" class="base">
+      There is no space to show any of
+    </text>
+    <text x="20" y="90" class="base">
+      this thing and I will keep typing until
+    </text>
+    <text x="20" y="110" class="base">
+      There is no space to show any of
+    </text>
+    <text x="20" y="130" class="base">
+      this thing and I will keep typing until
+    </text>
+    <text x="20" y="150" class="base">
+      There is no space to show any of
+    </text>
+    <text x="20" y="170" class="base">
+      this thing and I will keep typing until
+    </text>
+</svg>
+
+
+<svg width="100%" height="100%" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>.base { fill: black; font-family: serif; font-size: 13px; }</style>
+  <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="Custom-Preset" transform="translate(-4.000000, -9.000000)">
+          <path d="M33.3045483,19.6691808 C33.3045483,19.6691808 50.3901448,7.01737686 44.4979542,21.9079998 C43.1075051,25.8207327 41.9275983,28.5841346 40.9582337,30.1982055 C34.5821078,40.8149737 30.5699328,44.1098093 29.9958716,44.0154156 C27.7819148,43.6513715 27.7285264,36.6546518 25.5926317,30.1982055 C22.2166476,19.99318 18.1209677,7.01737686 23.3514726,7.01737686 C33.4717629,7.01737686 33.3045483,19.6691808 33.3045483,19.6691808 Z" id="Path" fill="#EC7575" transform="translate(33.294804, 25.517377) rotate(-11.000000) translate(-33.294804, -25.517377) "></path>
+          <path d="M236.113508,21.5583749 C236.113508,21.5583749 243.254287,14.7135567 244.561407,18.1619081 C244.895096,19.0422217 243.659248,23.6286928 242.3314,25.5874228 C236.508666,34.1766292 234.358248,34.0474344 233.83401,33.9710678 C231.812205,33.6765478 231.98279,31.5840306 230.032272,26.3606191 C226.949294,18.1045219 224.540351,13.9867919 229.316894,13.9867919 C238.558831,13.9867919 236.113508,21.5583749 236.113508,21.5583749 Z" id="Path" fill="#EC7575" transform="translate(235.616538, 23.986792) rotate(12.000000) translate(-235.616538, -23.986792) "></path>
+          <path d="M17.3957557,28.3294144 C17.3957557,28.3294144 24.5365353,22.169078 25.8436551,25.2725943 C26.1773436,26.0648765 24.9414963,30.1927005 23.6136479,31.9555575 C17.790914,39.6858432 15.6404957,39.5695679 15.116258,39.5008379 C13.0944534,39.23577 13.2650378,37.3525045 11.3145201,32.6514341 C8.23154187,25.2209466 5.82259871,21.5149897 10.5991416,21.5149897 C19.841079,21.5149897 17.3957557,28.3294144 17.3957557,28.3294144 Z" id="Path" fill="#EC7575" transform="translate(16.898786, 30.514990) rotate(-46.000000) translate(-16.898786, -30.514990) "></path>
+          
+          <text x="20" y="60" class="base">
+            ggggggggggggggggggggggggggggggggggg
+          </text>
+          <text x="20" y="80" class="base">
+            zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+          </text>
+          <text x="20" y="100" class="base">
+            kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+          </text>
+          <text x="20" y="120" class="base">
+            this thing and I will keep typing until
+          </text>
+          <text x="20" y="140" class="base">
+            There is no space to show any of
+          </text>
+          <text x="20" y="160" class="base">
+            this thing and I will keep typing until
+          </text>
+          <text x="20" y="180" class="base">
+            There is no space to show any of
+          </text>
+          <text x="20" y="200" class="base">
+            this thing and I will keep typing until
+          </text>
+
+          <text id="EthMS.com" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#DF6C6C">
+              <tspan x="180" y="247">EthMS.com</tspan>
+          </text>
+      </g>
+  </g>
+</svg>
+
+
+
+<svg width="100%" height="100%" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>.b2 { fill: black; font-family: serif; font-size: 13px; }</style> <rect width="100%" height="100%" fill="#FDF9E7" /> 
+  <g id="Flower" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="Custom-Preset" transform="translate(-8.000000, -4.000000)">
+          <text id="EthMS.com" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#DF6C6C">
+              <tspan x="180" y="247">EthMS.com</tspan>
+          </text>
+          <circle id="Oval" fill="#000000" cx="228" cy="19" r="4"></circle>
+          <path d="M228,23 C226.505695,32.6763798 231.564173,40.8098966 233.698169,41.9976237 C235.120832,42.7894418 235.922215,41.3274975 236.102317,37.6117908" id="Path" stroke="#A7C764"></path>
+          <path d="M226.534285,15 C225.582985,11.2495777 225.231068,8.81918542 225.478534,7.70882329 C226.09629,4.93698954 228.87114,4.32121644 229.783532,4.87937852 C230.709489,5.44583993 233.932651,7.28614095 233.684599,9.84594289 C233.58911,10.8313413 232.288755,12.5493603 229.783532,15" id="Path-2" fill="#EFD95D"></path>
+          <path d="M234.934112,22.2440091 C232.709773,18.7302621 231.721337,16.4182075 231.968802,15.3078454 C232.586559,12.5360117 237.888601,13.9139869 238.800992,14.472149 C239.323926,14.792058 239.540072,15.0937481 239.787687,15.572828 C239.978523,15.9420526 240.282832,16.330811 240.174867,17.444965 C240.079379,18.4303634 238.871053,19.9858202 236.549889,22.1113353 C236.207589,22.0794107 235.944731,22.0709788 235.761312,22.0860396 C235.577894,22.1011003 235.302161,22.1537568 234.934112,22.2440091 Z" id="Path-2" fill="#EFD95D" transform="translate(236.064535, 17.938643) rotate(82.000000) translate(-236.064535, -17.938643) "></path>
+          <path d="M231.562733,29.8648457 C229.825046,26.7958294 229.060976,24.7966161 229.270522,23.8672056 C229.79362,21.5470875 232.143281,21.0316647 232.915867,21.4988651 C233.69994,21.9730124 236.429219,23.5134063 236.219175,25.6560466 C236.138318,26.4808582 234.758267,27.983378 232.079022,30.1636058 L231.562733,29.8648457 Z" id="Path-2" fill="#EFD95D" transform="translate(232.733682, 25.752767) rotate(126.000000) translate(-232.733682, -25.752767) "></path>
+          <path d="M220.34105,31.0382576 C218.631931,27.3952361 217.901104,25.0185443 218.14857,23.9081821 C218.766326,21.1363484 221.541176,20.5205753 222.453568,21.0787374 C223.379525,21.6451988 226.602687,23.4854998 226.354635,26.0453017 C226.259146,27.0307001 224.787428,28.7630798 221.939479,31.2424408 L220.34105,31.0382576 Z" id="Path-2" fill="#EFD95D" transform="translate(222.234913, 26.066843) rotate(209.000000) translate(-222.234913, -26.066843) "></path>
+          <path d="M218.027363,19.7565383 C216.410788,16.3887448 215.726233,14.149667 215.973698,13.0393049 C216.591455,10.2674711 219.366305,9.65169801 220.278696,10.2098601 C221.204654,10.7763215 224.427816,12.6166225 224.179763,15.1764245 C224.084275,16.1618229 222.608759,17.77172 219.753215,20.0061157 C219.478295,19.8802034 219.233154,19.8016752 219.01779,19.7705312 C218.802426,19.7393872 218.472284,19.7347229 218.027363,19.7565383 Z" id="Path-2" fill="#EFD95D" transform="translate(220.058876, 15.014242) rotate(287.000000) translate(-220.058876, -15.014242) "></path>
+          <circle id="Oval" fill="#000000" cx="21" cy="217" r="4"></circle>
+          <path d="M21,221 C21.3591509,222.369225 21.2548004,223.554022 21.3591509,224.762856 C21.4646665,225.985185 21.2335437,227.066543 21,228.271357 C20.6953875,229.842804 17.3897832,239.709577 16.075386,240.628879 C14.9296627,241.43021 13.7607948,240.449799 12.5687823,237.687647" id="Path" stroke="#A7C764"></path>
+          <path d="M19.5342851,213 C18.5829853,209.249578 18.2310681,206.819185 18.4785337,205.708823 C19.0962903,202.93699 21.8711404,202.321216 22.7835315,202.879379 C23.7094891,203.44584 26.9326514,205.286141 26.6845986,207.845943 C26.5891104,208.831341 25.2887547,210.54936 22.7835315,213" id="Path-2" fill="#EFD95D"></path>
+          <path d="M27.9341122,220.244009 C25.7097733,216.730262 24.7213366,214.418208 24.9688022,213.307845 C25.5865588,210.536012 30.8886005,211.913987 31.8009917,212.472149 C32.3239261,212.792058 32.5400719,213.093748 32.7876869,213.572828 C32.9785227,213.942053 33.282832,214.330811 33.174867,215.444965 C33.0793789,216.430363 31.8710528,217.98582 29.5498888,220.111335 C29.2075895,220.079411 28.9447307,220.070979 28.7613125,220.08604 C28.5778942,220.1011 28.3021608,220.153757 27.9341122,220.244009 Z" id="Path-2" fill="#EFD95D" transform="translate(29.064535, 215.938643) rotate(82.000000) translate(-29.064535, -215.938643) "></path>
+          <path d="M24.5627328,227.864846 C22.825046,224.795829 22.0609759,222.796616 22.2705224,221.867206 C22.7936204,219.547087 25.1432811,219.031665 25.9158669,219.498865 C26.6999403,219.973012 29.4292186,221.513406 29.2191749,223.656047 C29.1383183,224.480858 27.7582672,225.983378 25.0790216,228.163606 L24.5627328,227.864846 Z" id="Path-2" fill="#EFD95D" transform="translate(25.733682, 223.752767) rotate(126.000000) translate(-25.733682, -223.752767) "></path>
+          <path d="M13.3410505,229.038258 C11.631931,225.395236 10.9011041,223.018544 11.1485697,221.908182 C11.7663263,219.136348 14.5411764,218.520575 15.4535675,219.078737 C16.379525,219.645199 19.6026874,221.4855 19.3546346,224.045302 C19.2591464,225.0307 17.7874277,226.76308 14.9394785,229.242441 L13.3410505,229.038258 Z" id="Path-2" fill="#EFD95D" transform="translate(15.234913, 224.066843) rotate(209.000000) translate(-15.234913, -224.066843) "></path>
+          <path d="M11.0273627,217.756538 C9.41078755,214.388745 8.72623276,212.149667 8.97369836,211.039305 C9.59145495,208.267471 12.366305,207.651698 13.2786962,208.20986 C14.2046537,208.776322 17.427816,210.616623 17.1797632,213.176424 C17.084275,214.161823 15.6087588,215.77172 12.7532145,218.006116 C12.4782952,217.880203 12.2331537,217.801675 12.0177899,217.770531 C11.8024261,217.739387 11.4722837,217.734723 11.0273627,217.756538 Z" id="Path-2" fill="#EFD95D" transform="translate(13.058876, 213.014242) rotate(287.000000) translate(-13.058876, -213.014242) "></path>
+      </g>
+  </g>
+
+  <text x="15" y="60" class="b2">
+    ggggggggggggggggggggggggggggggggggg
+  </text>
+  <text x="15" y="80" class="b2">
+    zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+  </text>
+  <text x="15" y="100" class="b2">
+    kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+  </text>
+  <text x="15" y="120" class="b2">
+    this thing and I will keep typing until
+  </text>
+  <text x="15" y="140" class="b2">
+    There is no space to show any of
+  </text>
+  <text x="15" y="160" class="b2">
+    this thing and I will keep typing until
+  </text>
+  <text x="15" y="180" class="b2">
+    There is no space to show any of
+  </text>
+  <text x="15" y="200" class="b2">
+    this thing and I will keep typing until
+  </text>
+
+</svg>
+
+<svg width="100%" height="100%" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>.b1 { fill: black; font-family: serif; font-size: 13px; }</style> <rect width="100%" height="100%" fill="#FDF9E7" /> 
+  <g id="Custom-Preset" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <rect fill="#FFEFEF" x="0" y="0" width="250" height="250"></rect>
+    <text id="💥❗IMPORTANT❗💥" font-family="AppleColorEmoji, Apple Color Emoji" font-size="12" font-weight="normal" fill="#B02E2E">
+        <tspan x="57" y="15">💥❗</tspan>
+        <tspan x="89" y="15" font-family="Helvetica-Bold, Helvetica" font-weight="bold">IMPORTANT</tspan>
+        <tspan x="159.441406" y="15">❗💥</tspan>
+    </text>
+</g>
+
+  <text x="15" y="60" class="b1">
+    ggggggggggggggggggggggggggggggggggg
+  </text>
+  <text x="15" y="80" class="b1">
+    zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+  </text>
+  <text x="15" y="100" class="b1">
+    kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+  </text>
+  <text x="15" y="120" class="b1">
+    this thing and I will keep typing until
+  </text>
+  <text x="15" y="140" class="b1">
+    There is no space to show any of
+  </text>
+  <text x="15" y="160" class="b1">
+    this thing and I will keep typing until
+  </text>
+  <text x="15" y="180" class="b1">
+    There is no space to show any of
+  </text>
+  <text x="15" y="200" class="b1">
+    this thing and I will keep typing until
+  </text>
+
+</svg>
+
+<svg width="100%" height="100%" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>.base { fill: white; font-family: serif; font-size: 13px; }</style><rect width="100%" height="100%" fill="black" />
+
+  
+  <text x="15" y="60" class="base">
+    ggggggggggggggggggggggggggggggggggg
+  </text>
+  <text x="15" y="80" class="base">
+    zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+  </text>
+  <text x="15" y="100" class="base">
+    kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+  </text>
+  <text x="15" y="120" class="base">
+    this thing and I will keep typing until
+  </text>
+  <text x="15" y="140" class="base">
+    There is no space to show any of
+  </text>
+  <text x="15" y="160" class="base">
+    this thing and I will keep typing until
+  </text>
+  <text x="15" y="180" class="base">
+    There is no space to show any of
+  </text>
+  <text x="15" y="200" class="base">
+    this thing and I will keep typing until
+  </text>
+
+  <text font-family="Helvetica-Bold, Helvetica" fill="#DF6C6C">
+      <tspan x="154" y="15">EthMS.com</tspan>
+  </text>
+
+</svg>
+
+<svg viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg"><style>.base{fill:#fff;font-family:serif;font-size:13px}</style><rect width="100%" height="100%"/><text x="15" y="60" class="base">
+  ggggggggggggggggggggggggggggggggggg
+</text><text x="15" y="80" class="base">
+  zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+</text><text x="15" y="100" class="base">
+  kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+</text><text x="15" y="120" class="base">
+  this thing and I will keep typing until
+</text><text x="15" y="140" class="base">
+  There is no space to show any of
+</text><text x="15" y="160" class="base">
+  this thing and I will keep typing until
+</text><text x="15" y="180" class="base">
+  There is no space to show any of
+</text><text x="15" y="200" class="base">
+  this thing and I will keep typing until
+</text><text font-family="Helvetica-Bold, Helvetica" fill="#DF6C6C">
+    <tspan x="154" y="15">EthMS.com</tspan>
+</text></svg>
+
+<svg viewBox='0 0 250 250' xmlns='http://www.w3.org/2000/svg'><style>.b2{fill:#000;font-family:serif;font-size:13px}</style><rect width='100%' height='100%' fill='#FDF9E7'/><g stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'><g transform='translate(-8 -4)'><text font-family='Helvetica-Bold, Helvetica' font-size='12' font-weight='bold' fill='#DF6C6C'><tspan x='180' y='247'>EthMS.com</tspan></text><circle fill='#000' cx='228' cy='19' r='4'/><path d='M228 23c-1.494 9.676 3.564 17.81 5.698 18.998 1.423.791 2.224-.67 2.404-4.386' stroke='#A7C764'/><path d='M226.534 15c-.951-3.75-1.303-6.18-1.055-7.291.617-2.772 3.392-3.388 4.305-2.83.925.567 4.149 2.407 3.9 4.967-.095.985-1.395 2.703-3.9 5.154' fill='#EFD95D'/><path d='M234.934 22.244c-2.224-3.514-3.213-5.826-2.965-6.936.618-2.772 5.92-1.394 6.832-.836.523.32.74.622.987 1.1.19.37.495.759.387 1.873-.096.985-1.304 2.54-3.625 4.666a4.85 4.85 0 0 0-.789-.025c-.183.015-.459.068-.827.158Z' fill='#EFD95D' transform='rotate(82 236.065 17.939)'/><path d='M231.563 29.865c-1.738-3.07-2.502-5.068-2.292-5.998.523-2.32 2.872-2.835 3.645-2.368.784.474 3.513 2.014 3.303 4.157-.08.825-1.46 2.327-4.14 4.508l-.516-.3Z' fill='#EFD95D' transform='rotate(126 232.734 25.753)'/><path d='M220.341 31.038c-1.71-3.643-2.44-6.02-2.192-7.13.617-2.772 3.392-3.387 4.305-2.83.926.567 4.149 2.407 3.9 4.967-.095.986-1.567 2.718-4.415 5.197l-1.598-.204Z' fill='#EFD95D' transform='rotate(-151 222.235 26.067)'/><path d='M218.027 19.757c-1.616-3.368-2.3-5.607-2.053-6.718.617-2.772 3.392-3.387 4.305-2.83.926.567 4.149 2.408 3.9 4.967-.095.986-1.57 2.596-4.426 4.83a2.752 2.752 0 0 0-.735-.235c-.216-.032-.546-.036-.99-.014Z' fill='#EFD95D' transform='rotate(-73 220.059 15.014)'/><circle fill='#000' cx='21' cy='217' r='4'/><path d='M21 221c.36 1.37.255 2.554.36 3.763.105 1.222-.126 2.304-.36 3.508-.305 1.572-3.61 11.439-4.925 12.358-1.145.801-2.314-.18-3.506-2.941' stroke='#A7C764'/><path d='M19.534 213c-.951-3.75-1.303-6.18-1.055-7.291.617-2.772 3.392-3.388 4.305-2.83.925.567 4.149 2.407 3.9 4.967-.095.985-1.395 2.703-3.9 5.154' fill='#EFD95D'/><path d='M27.934 220.244c-2.224-3.514-3.213-5.826-2.965-6.936.618-2.772 5.92-1.394 6.832-.836.523.32.74.622.987 1.1.19.37.495.759.387 1.873-.096.985-1.304 2.54-3.625 4.666a4.85 4.85 0 0 0-.789-.025c-.183.015-.459.068-.827.158Z' fill='#EFD95D' transform='rotate(82 29.065 215.939)'/><path d='M24.563 227.865c-1.738-3.07-2.502-5.068-2.292-5.998.523-2.32 2.872-2.835 3.645-2.368.784.474 3.513 2.014 3.303 4.157-.08.825-1.46 2.327-4.14 4.508l-.516-.3Z' fill='#EFD95D' transform='rotate(126 25.734 223.753)'/><path d='M13.341 229.038c-1.71-3.643-2.44-6.02-2.192-7.13.617-2.772 3.392-3.387 4.305-2.83.926.567 4.149 2.407 3.9 4.967-.095.986-1.567 2.718-4.415 5.197l-1.598-.204Z' fill='#EFD95D' transform='rotate(-151 15.235 224.067)'/><path d='M11.027 217.757c-1.616-3.368-2.3-5.607-2.053-6.718.617-2.772 3.392-3.387 4.305-2.83.926.567 4.149 2.408 3.9 4.967-.095.986-1.57 2.596-4.426 4.83a2.752 2.752 0 0 0-.735-.235c-.216-.032-.546-.036-.99-.014Z' fill='#EFD95D' transform='rotate(-73 13.059 213.014)'/></g></g><text x='15' y='60' class='b2'>
+ggggggggggggggggggggggggggggggggggg
+</text><text x='15' y='80' class='b2'>
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+</text><text x='15' y='100' class='b2'>
+kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+</text><text x='15' y='120' class='b2'>
+this thing and I will keep typing until
+</text><text x='15' y='140' class='b2'>
+There is no space to show any of
+</text><text x='15' y='160' class='b2'>
+this thing and I will keep typing until
+</text><text x='15' y='180' class='b2'>
+There is no space to show any of
+</text><text x='15' y='200' class='b2'>
+this thing and I will keep typing until
+</text></svg>
+
+
+  <!-- <g id="Flower-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="AppleColorEmoji, Apple Color Emoji" font-size="12" font-weight="normal">
+      <g id="Custom-Preset" transform="translate(-58.000000, -1.000000)" fill="#DF6C6C">
+          <text id="💥❗IMPORTANT❗💥">
+              <tspan x="58" y="17">💥❗</tspan>
+              <tspan x="90" y="17" font-family="Helvetica-Bold, Helvetica" font-weight="bold">IMPORTANT</tspan>
+              <tspan x="160.441406" y="17">❗💥</tspan>
+          </text>
+      </g>
+  </g>
+
+
+
+<svg width="134px" height="15px" viewBox="0 0 134 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Flower-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="AppleColorEmoji, Apple Color Emoji" font-size="12" font-weight="normal">
+        <g id="Custom-Preset" transform="translate(-51.000000, -1.000000)" fill="#DF6C6C">
+            <text>
+                <tspan x="51" y="17">💥❗</tspan>
+                <tspan x="83" y="17" font-family="Helvetica-Bold, Helvetica" font-weight="bold">IMPORTANT</tspan>
+                <tspan x="153.441406" y="17">❗💥</tspan>
+            </text>
+        </g>
+    </g>
+</svg> -->
+
+<svg viewBox='0 0 250 250' xmlns='http://www.w3.org/2000/svg'><style>.b2{fill:#000;font-family:serif;font-size:13px}</style><rect width='100%' height='100%' fill='#FDF9E7'/><g stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'><g transform='translate(-8 -4)'><text font-family='Helvetica-Bold, Helvetica' font-size='12' font-weight='bold' fill='#DF6C6C'><tspan x='180' y='247'>EthMS.com</tspan></text><circle fill='#000' cx='228' cy='19' r='4'/><path d='M228 23c-1.494 9.676 3.564 17.81 5.698 18.998 1.423.791 2.224-.67 2.404-4.386' stroke='#A7C764'/><path d='M226.534 15c-.951-3.75-1.303-6.18-1.055-7.291.617-2.772 3.392-3.388 4.305-2.83.925.567 4.149 2.407 3.9 4.967-.095.985-1.395 2.703-3.9 5.154' fill='#EFD95D'/><path d='M234.934 22.244c-2.224-3.514-3.213-5.826-2.965-6.936.618-2.772 5.92-1.394 6.832-.836.523.32.74.622.987 1.1.19.37.495.759.387 1.873-.096.985-1.304 2.54-3.625 4.666a4.85 4.85 0 0 0-.789-.025c-.183.015-.459.068-.827.158Z' fill='#EFD95D' transform='rotate(82 236.065 17.939)'/><path d='M231.563 29.865c-1.738-3.07-2.502-5.068-2.292-5.998.523-2.32 2.872-2.835 3.645-2.368.784.474 3.513 2.014 3.303 4.157-.08.825-1.46 2.327-4.14 4.508l-.516-.3Z' fill='#EFD95D' transform='rotate(126 232.734 25.753)'/><path d='M220.341 31.038c-1.71-3.643-2.44-6.02-2.192-7.13.617-2.772 3.392-3.387 4.305-2.83.926.567 4.149 2.407 3.9 4.967-.095.986-1.567 2.718-4.415 5.197l-1.598-.204Z' fill='#EFD95D' transform='rotate(-151 222.235 26.067)'/><path d='M218.027 19.757c-1.616-3.368-2.3-5.607-2.053-6.718.617-2.772 3.392-3.387 4.305-2.83.926.567 4.149 2.408 3.9 4.967-.095.986-1.57 2.596-4.426 4.83a2.752 2.752 0 0 0-.735-.235c-.216-.032-.546-.036-.99-.014Z' fill='#EFD95D' transform='rotate(-73 220.059 15.014)'/><circle fill='#000' cx='21' cy='217' r='4'/><path d='M21 221c.36 1.37.255 2.554.36 3.763.105 1.222-.126 2.304-.36 3.508-.305 1.572-3.61 11.439-4.925 12.358-1.145.801-2.314-.18-3.506-2.941' stroke='#A7C764'/><path d='M19.534 213c-.951-3.75-1.303-6.18-1.055-7.291.617-2.772 3.392-3.388 4.305-2.83.925.567 4.149 2.407 3.9 4.967-.095.985-1.395 2.703-3.9 5.154' fill='#EFD95D'/><path d='M27.934 220.244c-2.224-3.514-3.213-5.826-2.965-6.936.618-2.772 5.92-1.394 6.832-.836.523.32.74.622.987 1.1.19.37.495.759.387 1.873-.096.985-1.304 2.54-3.625 4.666a4.85 4.85 0 0 0-.789-.025c-.183.015-.459.068-.827.158Z' fill='#EFD95D' transform='rotate(82 29.065 215.939)'/><path d='M24.563 227.865c-1.738-3.07-2.502-5.068-2.292-5.998.523-2.32 2.872-2.835 3.645-2.368.784.474 3.513 2.014 3.303 4.157-.08.825-1.46 2.327-4.14 4.508l-.516-.3Z' fill='#EFD95D' transform='rotate(126 25.734 223.753)'/><path d='M13.341 229.038c-1.71-3.643-2.44-6.02-2.192-7.13.617-2.772 3.392-3.387 4.305-2.83.926.567 4.149 2.407 3.9 4.967-.095.986-1.567 2.718-4.415 5.197l-1.598-.204Z' fill='#EFD95D' transform='rotate(-151 15.235 224.067)'/><path d='M11.027 217.757c-1.616-3.368-2.3-5.607-2.053-6.718.617-2.772 3.392-3.387 4.305-2.83.926.567 4.149 2.408 3.9 4.967-.095.986-1.57 2.596-4.426 4.83a2.752 2.752 0 0 0-.735-.235c-.216-.032-.546-.036-.99-.014Z' fill='#EFD95D' transform='rotate(-73 13.059 213.014)'/></g></g><text x='15' y='60' class='b2'>this the first EthMS test</text><text x='15' y='80' class='b2'>this is another line of the test</text><text x='15' y='100' class='b2'>and another one</text><text x='15' y='120' class='b2'>this might be the fourth or something</text><text x='15' y='140' class='b2'>like that</text><text x='15' y='160' class='b2'>six</text><text x='15' y='180' class='b2'>seven</text><text x='15' y='200' class='b2'>eight</text></svg>
+
+
+</body>
+</html>
