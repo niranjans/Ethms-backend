@@ -27,10 +27,11 @@ module.exports = {
     }
   },
   gasReporter: {
+    enabled: false,
     currency: 'USD',
     gasPrice: 50
   },
-  defaultNetwork: "rinkeby",
+  defaultNetwork: "hardhat",
   networks: {
     hardhat: {
     },
